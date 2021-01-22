@@ -1,0 +1,24 @@
+.user-account{
+
+  @extend %flex-center;
+
+  &__image{
+    background: $color-primary;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: white;
+    margin-right: .7rem;
+
+    @extend %flex-center;
+  }
+
+  &__user-name{
+    font-size: .8rem;
+    color: gray;
+
+    &:hover{
+      color: black;
+    }
+  }
+}

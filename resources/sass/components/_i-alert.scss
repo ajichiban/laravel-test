@@ -1,0 +1,20 @@
+.i-alert{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-secondary;
+  
+  &__link{
+    color: white;
+    font-size: .8rem;
+    text-decoration: underline;
+  }
+
+  &__text-featured{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: .7rem;
+    line-height: 1;
+  }
+}

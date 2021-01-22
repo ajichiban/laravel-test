@@ -1,0 +1,29 @@
+.panel {
+  &-container{
+    padding: .5rem .25rem;
+    
+  }
+
+  overflow: auto;
+  height: 20rem;
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    height: 2px;
+  }
+
+   /* Estilos barra (thumb) de scroll */
+  &::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border-radius: 8px;
+   
+  }
+
+   /* Estilos track de scroll */
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 8px;
+  }
+
+}

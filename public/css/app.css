@@ -1,0 +1,245 @@
+/* Theme colors */
+/* colors */
+.i-bg-secondary {
+  background: #ffc600;
+}
+
+.i-bg-primary {
+  background: #001460;
+}
+
+.i-text-primary {
+  color: #001460;
+}
+
+.i-text-secondary {
+  color: #ffc600;
+}
+
+.user-account__image, .user-account, .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-size: 0.8rem;
+}
+
+.i-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+.i-navbar__container-logo {
+  height: 3rem;
+  width: 15rem;
+  cursor: pointer;
+}
+.i-navbar__logo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.i-navbar__items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.i-navbar__item {
+  list-style: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: #001460;
+  padding: 0 0.75rem;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.i-navbar__item:hover {
+  color: gray;
+}
+
+.hero {
+  background: #001460;
+  color: white;
+  padding: 2rem 0;
+  flex-direction: column;
+}
+.hero__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.hero__sub-title {
+  max-width: 30rem;
+  text-align: center;
+}
+
+.btn-call-action {
+  border: none;
+  padding: 0.7rem 2.5rem;
+  border-radius: 8rem;
+  color: white;
+  font-weight: bold;
+  background: #ffc600;
+  transition: all ease 0.3s;
+}
+.btn-call-action:hover {
+  background: #cc9e00;
+}
+
+.footer__items div {
+  margin-bottom: 1rem;
+}
+.footer__text-small {
+  font-size: 0.7rem;
+  padding-left: 1rem;
+}
+.footer__logo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.footer__bar {
+  height: 2px;
+  background: gray;
+  width: 50%;
+}
+
+.i-alert {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffc600;
+}
+.i-alert__link {
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+.i-alert__text-featured {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 0.7rem;
+  line-height: 1;
+}
+
+.user-account__image {
+  background: #001460;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: white;
+  margin-right: 0.7rem;
+}
+.user-account__user-name {
+  font-size: 0.8rem;
+  color: gray;
+}
+.user-account__user-name:hover {
+  color: black;
+}
+
+.custom-input {
+  position: relative;
+  width: 50%;
+}
+.custom-input__icon {
+  position: absolute;
+  color: gray;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+.custom-input__input {
+  padding: 0.7em 1rem 0.7rem 3.5rem;
+  width: 100%;
+  border-radius: 8rem;
+  border: none;
+}
+.custom-input__input:focus {
+  border: none;
+  box-shadow: initial;
+  outline: none;
+}
+
+.custom-card {
+  padding: 1rem 1.5rem;
+  border-left: 1rem gray solid;
+  border-radius: 8px;
+  box-shadow: 0 0 11px -3px grey;
+}
+.custom-card--green-blue {
+  border-color: #00ab9e;
+}
+.custom-card--blue {
+  border-color: #00a8c1;
+}
+.custom-card--red {
+  border-color: #f7475a;
+}
+.custom-card--primary {
+  border-color: #001460;
+}
+.custom-card--secondary {
+  border-color: #ffc600;
+}
+.custom-card--green {
+  border-color: #7db849;
+}
+.custom-card--brown {
+  border-color: #b57d4f;
+}
+.custom-card--orange {
+  border-color: #ff5a19;
+}
+.custom-card--pourple {
+  border-color: #752995;
+}
+.custom-card--single {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+.custom-card__title {
+  font-weight: bold;
+  color: #001460;
+  text-transform: capitalize;
+  margin-bottom: 0.3rem;
+}
+.custom-card__body {
+  color: gray;
+}
+
+.panel {
+  overflow: auto;
+  height: 20rem;
+  /* Estilos barra (thumb) de scroll */
+  /* Estilos track de scroll */
+}
+.panel-container {
+  padding: 0.5rem 0.25rem;
+}
+.panel::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 4px;
+  height: 2px;
+}
+.panel::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border-radius: 8px;
+}
+.panel::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}

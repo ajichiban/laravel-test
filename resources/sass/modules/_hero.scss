@@ -1,0 +1,23 @@
+.hero{
+  background: $color-primary;
+  color: white;
+  padding: 2rem 0;
+
+  @extend %flex-center;
+  flex-direction: column;
+
+  &__title{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  &__sub-title{
+    max-width: 30rem;
+    text-align: center;
+  }
+
+
+
+
+
+}

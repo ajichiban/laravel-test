@@ -1,0 +1,13 @@
+.btn-call-action{
+  border: none;
+  padding: .7rem 2.5rem;
+  border-radius: 8rem;
+  color: white;
+  font-weight: bold;
+  background: $color-secondary;
+  transition: all ease .3s;
+
+  &:hover{
+    background: darken($color-secondary, 10%);
+  }
+}

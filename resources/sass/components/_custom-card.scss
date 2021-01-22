@@ -1,0 +1,34 @@
+.custom-card{
+  &--green-blue{ border-color: $gree-blue}
+  &--blue{border-color: $blue;}
+  &--red{border-color: $red ;}
+  &--primary{border-color: $color-primary;}
+  &--secondary{border-color: $color-secondary;}
+  &--green{border-color: $green;}
+  &--brown{border-color: $brown;}
+  &--orange{border-color: $orange;}
+  &--pourple{border-color: $pourple;}
+
+  &--single{
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  padding: 1rem 1.5rem;
+  border-left: 1rem gray solid;
+  border-radius: 8px;
+  box-shadow: 0 0 11px -3px grey;
+
+  &__title{
+    font-weight: bold;
+    color: $color-primary;
+    text-transform: capitalize;
+    margin-bottom: .3rem;
+  }
+
+  &__body{
+    color: gray;
+  }
+
+}
